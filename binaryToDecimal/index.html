@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,14 @@
     <script src="./binaryToDecimal.js"></script>
 </head>
 <body>
+
     <div class="bg"></div>
     <div class="content">
+        <h1>Binary to Decimal</h1>
         <form name="form">
             <p class="input">
                 Inform a Binary number: <br>
-                <input type="text" id="bin" class="bin"placeholder="8-bits only" maxlength="8"> 
+                <input type="text" id="binaryNumber" class="binaryNumber"placeholder="Max of 8-Bits" maxlength="8"> 
                 <input type="button" class="button" value="Convert" onclick="binaryToDecimal()">
             </p>
             <p class="output">Decimal Number: <br> <input type="text" id="textview" class="textview" readonly></p>
