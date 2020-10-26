@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+textarea:focus, input:focus, .pw button:focus{
+    outline: none;
+}
+
+.pw-container{
+    background-color: rgb(46,12,80);
+    min-width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.5);
+}
+
+.pw-header{
+    padding: 1rem;
+}
+
+.pw{
+    background-color: rebeccapurple;
+    height: 70px;
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    overflow: auto;
+}
+
+
+
+.pw button{
+    background-color:rebeccapurple;
+    border: none;
+    color: rgb(29, 2, 56);
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0, -20%);
+    opacity: 0;
+    transition: opacity 200ms ease, transform 200ms ease;
+}
+
+button img{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.pw:hover button{
+    opacity: 1;
+    transform: translate(0, 0%);
+}
+
+.pw-body{
+    padding: 0 1rem 1rem;
+}
+
+.form-control {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+.generate{
+    display: block;
+    background-color: #ecb602;
+    color: rebeccapurple;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    padding: .5rem;
+    margin-top: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+
