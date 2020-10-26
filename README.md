@@ -11,4 +11,4 @@ Github Profiles App | [github-profiles-app](https://github.com/KaicPierre/JavaSc
 Password Generator  | [password-generator](https://github.com/KaicPierre/JavaScript-Exercises/tree/main/password-generator)
 
 
-Some of this exercises were done by watching some videos from [@florinpop17](https://github.com/florinpop17) at [YouTube](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)
+Some of this exercises were done by watching videos from [@florinpop17](https://github.com/florinpop17) at [YouTube](https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA)
