@@ -13,10 +13,16 @@ body{
     font-family: "Poppins", sans-serif;
     margin: 0;
     min-height: 100vh;
+    position: static;
+    overflow: auto;
 }
 
 textarea:focus, input:focus, .pw button:focus{
     outline: none;
+}
+
+span{
+    padding: 5px;
 }
 
 .pw-container{
@@ -31,7 +37,7 @@ textarea:focus, input:focus, .pw button:focus{
 
 .pw{
     background-color: rebeccapurple;
-    height: 70px;
+    height: 80px;
     display: flex;
     font-size: 1.5rem;
     align-items: center;
@@ -44,27 +50,20 @@ textarea:focus, input:focus, .pw button:focus{
 
 
 .pw button{
-    background-color:rebeccapurple;
+    background-color:rgba(0,0,0,0);
     border: none;
     color: rgb(29, 2, 56);
     font-family: inherit;
     font-weight: bold;
-    padding: 0.25rem;
-    cursor: pointer;
+    padding: 0.25px;
     position: absolute;
-    top: 0;
     right: 0;
+    top: auto;
+    cursor: pointer;
     transform: translate(0, -20%);
     opacity: 0;
     transition: opacity 200ms ease, transform 200ms ease;
-}
-
-button img{
-    display: flex;
-    width: 25px;
-    height: 25px;
-    justify-content: center;
-    align-items: center;
+    width: 50px;
 }
 
 .pw:hover button{
